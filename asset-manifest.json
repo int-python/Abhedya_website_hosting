@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Abhedya_website_hosting/static/css/main.aac15b73.chunk.css",
+    "main.js": "/Abhedya_website_hosting/static/js/main.99c6a199.chunk.js",
+    "main.js.map": "/Abhedya_website_hosting/static/js/main.99c6a199.chunk.js.map",
+    "runtime-main.js": "/Abhedya_website_hosting/static/js/runtime-main.ccf19b9e.js",
+    "runtime-main.js.map": "/Abhedya_website_hosting/static/js/runtime-main.ccf19b9e.js.map",
+    "static/css/2.9fe124c9.chunk.css": "/Abhedya_website_hosting/static/css/2.9fe124c9.chunk.css",
+    "static/js/2.c0386490.chunk.js": "/Abhedya_website_hosting/static/js/2.c0386490.chunk.js",
+    "static/js/2.c0386490.chunk.js.map": "/Abhedya_website_hosting/static/js/2.c0386490.chunk.js.map",
+    "static/js/3.1afc5ccc.chunk.js": "/Abhedya_website_hosting/static/js/3.1afc5ccc.chunk.js",
+    "static/js/3.1afc5ccc.chunk.js.map": "/Abhedya_website_hosting/static/js/3.1afc5ccc.chunk.js.map",
+    "index.html": "/Abhedya_website_hosting/index.html",
+    "static/css/2.9fe124c9.chunk.css.map": "/Abhedya_website_hosting/static/css/2.9fe124c9.chunk.css.map",
+    "static/css/main.aac15b73.chunk.css.map": "/Abhedya_website_hosting/static/css/main.aac15b73.chunk.css.map",
+    "static/js/2.c0386490.chunk.js.LICENSE.txt": "/Abhedya_website_hosting/static/js/2.c0386490.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/Abhedya_website_hosting/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccf19b9e.js",
+    "static/css/2.9fe124c9.chunk.css",
+    "static/js/2.c0386490.chunk.js",
+    "static/css/main.aac15b73.chunk.css",
+    "static/js/main.99c6a199.chunk.js"
+  ]
+}
