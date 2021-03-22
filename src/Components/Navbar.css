@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #1c2135;
+}
+.navbar-brand {
+  color: #d4ffe4;
+}
+.navbar-brand:hover {
+  color: #d4ffe4;
+}
+.navbar-toggler {
+  color: #d4ffe4;
+}
+
+.container-fluid div {
+  /* float: right; */
+  text-align: left;
+}
+.nav-link {
+  color: #d4ffe4;
+}
+.nav-link:hover {
+  border-radius: 14px;
+  background-color: #d4ffe4;
+  color: #1c2135;
+}

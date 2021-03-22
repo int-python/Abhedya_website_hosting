@@ -1,0 +1,54 @@
+.Services {
+  background-color: #d4ffe4;
+  color: #1c2135;
+}
+.Services__heading {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 20px;
+}
+.pre__button {
+  background-color: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: 180px;
+}
+.next__button {
+  background-color: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: 180px;
+}
+.Service__serviceCard {
+  padding: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 420px) {
+  .Services__heading {
+    font-size: 25px;
+    line-height: 25px;
+    padding-bottom: 0px;
+  }
+  .Service__serviceCard {
+    padding: 20px;
+  }
+  .pre__button {
+    width: 15px;
+    height: 15px;
+    margin-top: 110px;
+  }
+  .next__button {
+    width: 15px;
+    height: 15px;
+    margin-top: 110px;
+    margin-left: -5px;
+  }
+}

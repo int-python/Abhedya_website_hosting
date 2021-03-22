@@ -1,0 +1,46 @@
+.TestimonialsCard {
+  width: 400px;
+  background-color: #d4ffe4;
+  color: #1c2135;
+  padding: 15px;
+}
+.TestimonialsCard__text {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+}
+.TestimonialsCard__name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+@media (max-width: 800px) {
+  .TestimonialsCard {
+    width: 330px;
+    padding: 15px;
+  }
+  .TestimonialsCard__text {
+    font-weight: 500;
+    line-height: 16px;
+  }
+  .TestimonialsCard__name {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 420px) {
+  .TestimonialsCard {
+    width: 172px;
+    padding: 10px;
+  }
+  .TestimonialsCard__text {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 11px;
+  }
+  .TestimonialsCard__name {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

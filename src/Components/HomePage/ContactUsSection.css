@@ -1,0 +1,115 @@
+.ContactUsSection {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  background-color: #1c2135;
+  color: #d4ffe4;
+}
+.ContactUsSection__leftHeading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+.ContactUsSection__leftAddress {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.ContactUsSection__leftFbIcon,
+.ContactUsSection__leftIgIcon,
+.ContactUsSection__leftTwIcon,
+.ContactUsSection__leftLiIcon {
+  color: #d4ffe4;
+  padding-left: 15px;
+}
+.ContactUsSection__leftFbIcon:hover {
+  color: #4867aa;
+}
+.ContactUsSection__leftIgIcon:hover {
+  color: #fd5346;
+}
+.ContactUsSection__leftTwIcon:hover {
+  color: #1da1f2;
+}
+.ContactUsSection__leftLiIcon:hover {
+  color: #0077b5;
+}
+
+.ContactUsSection__rightName {
+  width: 100%;
+  padding: 5px;
+  border: none;
+}
+.ContactUsSection__rightMail {
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px;
+  border: none;
+}
+.ContactUsSection__rightMessage {
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px;
+  border: none;
+}
+.ContactUsSection__rightButton {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  background: transparent;
+  color: #d4ffe4;
+}
+.ContactUsSection__rightButton:hover {
+  background-color: #d4ffe4;
+  color: #1c2135;
+}
+@media (max-width: 800px) {
+  .ContactUsSection {
+    padding: 50px;
+  }
+}
+@media (max-width: 420px) {
+  .ContactUsSection {
+    padding: 10px;
+  }
+  .ContactUsSection__leftHeading {
+    font-size: 25px;
+  }
+  .ContactUsSection__leftAddress {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .ContactUsSection__leftMail {
+    font-size: 12px;
+  }
+  .ContactUsSection__leftFbIcon,
+  .ContactUsSection__leftIgIcon,
+  .ContactUsSection__leftTwIcon,
+  .ContactUsSection__leftLiIcon {
+    padding-left: 10px;
+  }
+  .ContactUsSection__right {
+    flex: 0.8;
+  }
+  .ContactUsSection__rightName {
+    height: 20px;
+    font-size: 12px;
+  }
+  .ContactUsSection__rightMail {
+    margin-top: 5px;
+    height: 20px;
+    font-size: 12px;
+  }
+  .ContactUsSection__rightMessage {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .ContactUsSection__rightButton {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+}

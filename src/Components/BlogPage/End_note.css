@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wellcome_notes_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 2rem;
+    padding: 4rem 6rem;
+    background-color: #232839;
+    color: #d4ffe4;
+}
+
+.wellcome_notes_container video {
+    border-radius: 75%;
+    width: 100%;
+}
+
+.earth_container {
+    position: relative;
+}
+
+.earth_txt {
+    position: absolute;
+    top: 40%;
+    font-size: 2rem;
+    font-weight: bolder;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    width: 10rem;
+    color: #ccffcc;
+}
+
+.wellcome_note_heading {
+    font-size: 2.5rem;
+}
+
+.wellcome_note {
+    font-size: 2rem;
+}
+
+.wellcome_note span {
+    font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .wellcome_notes_container {
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 2rem;
+    }
+}

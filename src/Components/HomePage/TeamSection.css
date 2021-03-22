@@ -1,0 +1,43 @@
+.TeamSection {
+  background-color: #d4ffe4;
+  color: #1c2135;
+}
+.TeamSection__heading {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.TeamSection__slider {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.TeamSection__sliderCard {
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+}
+@media (max-width: 800px) {
+  .TeamSection__heading {
+    text-align: center;
+    padding-left: 0px;
+  }
+  .TeamSection__sliderCard {
+    padding-left: 8px;
+  }
+}
+@media (max-width: 420px) {
+  .TeamSection__heading {
+    text-align: center;
+    font-size: 25px;
+    line-height: 25px;
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+  .TeamSection__sliderCard {
+    padding-left: 3px;
+  }
+}

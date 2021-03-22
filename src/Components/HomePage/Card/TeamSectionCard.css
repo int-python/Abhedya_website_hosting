@@ -1,0 +1,76 @@
+.TeamSectionCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: fit-content;
+  padding: 10px;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.TeamSectionCard__image {
+  width: 200px;
+}
+.TeamSectionCard__name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  padding-top: 5px;
+}
+.TeamSectionCard__devType {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 16px;
+}
+.TeamSectionCard:hover {
+  border-radius: 12px;
+  border: 2px solid #1c2135;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+@media (max-width: 800px) {
+  .TeamSectionCard {
+    width: 170px;
+    padding: 10px;
+  }
+  .TeamSectionCard__image {
+    width: 150px;
+  }
+  .TeamSectionCard__name {
+    font-size: 20px;
+  }
+  .TeamSectionCard__devType {
+    font-size: 18px;
+  }
+  .TeamSectionCard:hover .TeamSectionCard__name {
+    font-size: 18px;
+  }
+}
+@media (max-width: 420px) {
+  .TeamSectionCard {
+    width: 68px;
+    padding: 5px;
+  }
+  .TeamSectionCard__image {
+    width: 50px;
+  }
+  .TeamSectionCard__name {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .TeamSectionCard__devType {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .TeamSectionCard:hover .TeamSectionCard__name {
+    font-size: 12px;
+  }
+}
