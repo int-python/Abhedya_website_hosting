@@ -8,7 +8,7 @@ function Navbar() {
         <div className="Navbar">
             <nav class="navbar fixed-top navbar-expand-lg">
               <div class="container-fluid">
-                <a class="navbar-brand"><SiConfluence /> Abhedya</a>
+                <a href="/" class="navbar-brand"><SiConfluence /> Abhedya</a>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"><GiHamburgerMenu /></span>
                 </button>
@@ -25,6 +25,9 @@ function Navbar() {
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/NewsPage">News</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>

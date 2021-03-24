@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Home() {
+export default function AppDevelopPage() {
   const classes = useStyles();
 
   return (
@@ -62,7 +62,7 @@ export default function Home() {
             <Grid item xs={12} sm={6}>
               <div className="container_graphics">
                 <h1 className="graphics_design_heading">
-                  Graphic <br /> Designing.
+                  App <br /> Development.
                 </h1>
               </div>
             </Grid>

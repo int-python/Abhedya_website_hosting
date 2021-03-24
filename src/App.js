@@ -11,6 +11,11 @@ import {
 import ServicePage from './Components/ServicePage';
 import NewsPage from './Components/NewsPage';
 import BlogPage from './Components/BlogPage';
+import GraphicDesignPage from './Components/ServicePage/GraphicDesignPage/GraphicDesignPage';
+import ML_AIServicePage from './Components/ServicePage/ML&AI/ML_AIServicePage';
+import CyberSecurityPage from './Components/ServicePage/CyberSecurity/CyberSecurityPage';
+import WebDevelopmentPage from './Components/ServicePage/WebDevelopment/WebDevelopmentPage';
+import AppDevelopPage from './Components/ServicePage/AppDevelopment/AppDevelopPage';
 
 function App() {
   return (
@@ -21,6 +26,12 @@ function App() {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/ServicePage" component={ServicePage} />
+              <Route exact path="/ServicePage/GraphicDesignPage" component={GraphicDesignPage} />
+              <Route exact path="/ServicePage/ML&AIPage" component={ML_AIServicePage} />
+              <Route exact path="/ServicePage/CyberSecurityPage" component={CyberSecurityPage} />
+              <Route exact path="/ServicePage/WebDevelopmentPage" component={WebDevelopmentPage} />
+              <Route exact path="/ServicePage/AppDevelopPage" component={AppDevelopPage} />
+              {/* <Route exact path="/ServicePage/OtherPage" component={OtherPage} /> */}
             <Route exact path="/NewsPage" component={NewsPage} />
             <Route exact path="/BlogPage" component={BlogPage} />
           </Switch>

@@ -13,8 +13,9 @@
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
 }
-/* .ServiceCard__img {
-} */
+.ServiceCard__img {
+  width: 150px;
+}
 .ServiceCard__serviceName {
   text-align: center;
   font-family: "Montserrat", sans-serif;

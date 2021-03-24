@@ -3,17 +3,19 @@ import './ServiceCard.css'
 import { Link } from "react-router-dom";
 
 
-function ServiceCard() {
+function ServiceCard({ServiceImage, ServiceName, ServiceDetail, ServicePageLink}) {
     return (
         <div className="ServiceCard">
             <img 
             className="ServiceCard__img"
-            src="https://www.bergerpaints.com/blog/wp-content/uploads/2020/07/Booking-through-mobile-app-150x150.png" 
+            src={ServiceImage} 
             alt="" 
             />
-            <p className="ServiceCard__serviceName">Graphic Design</p>
-            <p className="ServiceCard__serviceDetail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-            <button className="ServiceCard__learnMore">Learn More</button>
+            <p className="ServiceCard__serviceName">{ServiceName}</p>
+            <p className="ServiceCard__serviceDetail">{ServiceDetail}</p>
+            <a href={ServicePageLink}>
+                <button className="ServiceCard__learnMore">Learn More</button>
+            </a>
         </div>
     )
 }

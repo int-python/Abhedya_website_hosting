@@ -1,0 +1,38 @@
+.ServicePage__partical {
+  background-color: #1c2135;
+}
+.ServicePage__topHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ServicePage__topHeading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #d4ffe4;
+  margin-top: -250px;
+}
+.ServicePage__topDetail {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #d4ffe4;
+  width: 600px;
+  align-items: center;
+  text-align: justify;
+}
+.ServicePage__services {
+  background-color: #d4ffe4;
+  color: #1c2135;
+  padding-bottom: 50px;
+}
+.ServicePage__servicesHeading {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+@media (max-width: 800px) {
+}
+@media (max-width: 420px) {
+}

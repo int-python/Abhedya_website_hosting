@@ -1,0 +1,61 @@
+.ServicePageCardLeft {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.ServicePageCardLeft__right {
+  padding-left: 100px;
+}
+.ServicePageCardLeft__rightHeading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+.ServicePageCardLeft__rightDetail {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: justify;
+}
+.ServicePageCardLeft__rightButton {
+  padding-left: 5px;
+  padding-right: 5px;
+  background: transparent;
+  border: 2px solid #1c2135;
+  border-radius: 10px;
+  color: #1c2135;
+  font-size: 18px;
+}
+@media (max-width: 800px) {
+  .ServicePageCardLeft {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .ServicePageCardLeft__right {
+    padding-left: 50px;
+  }
+  .ServicePageCardLeft__rightHeading {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  .ServicePageCardLeft__rightDetail {
+    font-size: 14px;
+  }
+}
+@media (max-width: 420px) {
+  .ServicePageCardLeft {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+  }
+  .ServicePageCardLeft__leftImage {
+    width: 350px;
+  }
+  .ServicePageCardLeft__right {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

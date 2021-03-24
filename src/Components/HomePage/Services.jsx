@@ -11,10 +11,24 @@ function Services() {
               <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div className="Service__serviceCard">
-                        <ServiceCard />
-                        <ServiceCard />
-                        <ServiceCard />
-                        <ServiceCard />
+                        <ServiceCard 
+                        ServiceName="Grapic"
+                        ServiceDetail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                        ServiceImage="https://bestdevlist.com/wp-content/uploads/2019/02/Graphic-_Design-400x200.jpg"
+                        ServicePageLink="/ServicePage/GraphicDesignPage"
+                        />
+                        <ServiceCard 
+                        ServiceName="ML & AI"
+                        ServiceDetail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                        ServiceImage="https://softei.com/wp-content/uploads/2020/02/Arm_10-02-2020-400x200-c-default.jpg"
+                        ServicePageLink="/ServicePage/ML&AIPage"
+                        />
+                        <ServiceCard 
+                        ServiceName="Cybersecurity"
+                        ServiceDetail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                        ServiceImage="https://i.pinimg.com/474x/53/7c/e4/537ce444ca00676f55cdcbe9671d6688.jpg"
+                        ServicePageLink="/ServicePage/CyberSecurityPage"
+                        />
                     </div>
                 </div>
                 {/* <div class="carousel-item">
@@ -22,10 +36,24 @@ function Services() {
                 </div> */}
                 <div class="carousel-item">
                     <div className="Service__serviceCard">
-                        <ServiceCard />
-                        <ServiceCard />
-                        <ServiceCard />
-                        <ServiceCard />
+                        <ServiceCard 
+                        ServiceName="Web Development"
+                        ServiceDetail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                        ServiceImage="https://industryarmymarketing.com/wp-content/uploads/2018/08/wd1-400x200.jpg"
+                        ServicePageLink="/ServicePage/WebDevelopmentPage"
+                        />
+                        <ServiceCard 
+                        ServiceName="App Development"
+                        ServiceDetail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                        ServiceImage="https://assets.entrepreneur.com/content/3x2/2000/20190612193425-GettyImages-1066987316-crop.jpeg?auto=webp&quality=95&crop=2:1&width=400"
+                        ServicePageLink="/ServicePage/AppDevelopPage"
+                        />
+                        <ServiceCard 
+                        ServiceName="Others"
+                        ServiceDetail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                        ServiceImage="https://assets.entrepreneur.com/content/3x2/2000/20180829214301-GettyImages-993560700.jpeg?auto=webp&quality=95&crop=2:1&width=400"
+                        ServicePageLink="/ServicePage/OtherPage"
+                        />
                     </div>
                 </div>
                 
