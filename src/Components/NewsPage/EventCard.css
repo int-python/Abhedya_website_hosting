@@ -1,0 +1,71 @@
+.event_img {
+    object-fit: fill;
+    object-position: top;
+    height: 35rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.event_card_container {
+    position: relative;
+}
+
+.event_registor_button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #019ea3;
+    border: 5px solid #fff;
+    border-style: double;
+    position: absolute;
+    right: 1rem;
+    bottom: 7rem;
+    text-align: center;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    border-radius: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+  
+}
+
+@media only screen and (min-width: 768px) {
+    .event_registor_button {
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1030px) {
+    .event_registor_button {
+        right: 3rem;
+        bottom: 6.7rem
+
+    }
+}
+
+@media only screen and (min-width: 1030px) {
+    
+.event_registor_button {
+    right: 1.5rem;
+    border: 10px solid #019ea3;
+    border-style: double;
+    color: #019ea3;
+    background-color: #fff;
+    text-decoration: none;
+    display: none;
+    bottom: 6.5rem
+}
+.event_registor_button:hover {
+    display: block;
+    color: #fff;
+    background-color: #019ea3;
+    border: 10px solid #fff;
+    border-style: double;
+    text-decoration: none;
+}
+
+.event_img:hover + .event_registor_button {
+    display: block;
+
+}
+
+}

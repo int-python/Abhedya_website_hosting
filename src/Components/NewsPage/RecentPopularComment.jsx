@@ -28,7 +28,7 @@ function RecentPopularComment() {
                 commentText= "Ratcliffe to be Director of nation talent"
                 commentDate= "digiQoles Jan 10, 2021"
             />
-            <CommentCard
+            {/* <CommentCard
                 commentImg= "https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 commentHeading= "FASHION"
                 commentText= "Ratcliffe to be Director of nation talent"
@@ -39,7 +39,7 @@ function RecentPopularComment() {
                 commentHeading= "FASHION"
                 commentText= "Ratcliffe to be Director of nation talent"
                 commentDate= "digiQoles Jan 10, 2021"
-            />
+            /> */}
         </div>
         
       </section>

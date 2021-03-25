@@ -19,8 +19,9 @@ function NewsCard(props) {
                     <h4 className="news_heading"> {props.newsheading} </h4>
                     <h6 className="news_date"> {props.newsdate} </h6>
                     <p className="news_preview"> {props.newspreview} </p>
-                </div>
+                    <a className="news_link" href={props.newslink}>Read more</a>
 
+                </div>
 
                 
             </section>

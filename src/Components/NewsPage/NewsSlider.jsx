@@ -10,14 +10,14 @@ function NewsSlider() {
           <figure className="slide_img_container">
             <img
               className="slider_image"
-              src="https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              src="https://i.gadgets360cdn.com/large/realme_8_pro_image_gadgets_360_1616679592263.jpg?downsize=950:*&output-quality=80&output-format=webp"
             />
             </figure>
             <figcaption>
-              <button className="slider_button"> SPORTS </button>
+              <button className="slider_button"> TECH </button>
               <br />
               <strong className="slider_caption">
-                Harbour amid a Slowen down in singe
+              Realme 8-Series 5G Variants to Launch in India ‘Soon’, Reveals CEO Madhav Sheth
               </strong>
             </figcaption>
           </div>
@@ -28,14 +28,14 @@ function NewsSlider() {
           <figure className="slide_img_container">
             <img
               className="slider_image"
-              src="https://hdfreewallpaper.net/wp-content/uploads/2019/03/tech-wallpaper-4k-download.png"
+              src="https://d1vwxdpzbgdqj.cloudfront.net/assets/iit-madras/iit-madras-cover-3558cf291a05032922ecb5c9ea3897f6a63d9477eef4f2634cae78cda89f81ac.png"
               />
               </figure>
             <figcaption>
-              <button className="slider_button"> SPORTS </button>
+              <button className="slider_button"> STUDY </button>
               <br />
               <strong className="slider_caption">
-                Harbour amid a Slowen down in singe
+                    Master Cloud, IoT from IIT Madras & Great Learning
               </strong>
             </figcaption>
           </div>
@@ -46,14 +46,14 @@ function NewsSlider() {
           <figure className="slide_img_container">
             <img
               className="slider_image"
-              src="https://images.pexels.com/photos/3184423/pexels-photo-3184423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              src="https://i.gadgets360cdn.com/large/oneweb_roscosmos_1616663642031.jpg?downsize=950:*&output-quality=80&output-format=webp"
               />
               </figure>
             <figcaption>
-              <button className="slider_button"> SPORTS </button>
+              <button className="slider_button"> TECH </button>
               <br />
               <strong className="slider_caption">
-                Harbour amid a Slowen down in singe
+                   Russia Launches 36 UK Telecom and Internet Satellites on Board Soyuz Rocket
               </strong>
             </figcaption>
           </div>

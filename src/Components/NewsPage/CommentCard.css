@@ -1,47 +1,47 @@
 .comment_card_container {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .comment_card_container div {
-  padding-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .comment_img_container figure {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-  overflow: hidden;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
 }
 .comment_img {
-  width: 6.9rem;
-  height: 7rem;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-  margin-top: -1rem;
+    width: 6.9rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -1rem;
 }
 
 .comment_img:hover {
-  padding-right: 1.9rem;
-  transition: 1s;
+    padding-right: 1.9rem;
+    transition: 1s;
 }
 
 .comment_data {
-  padding-left: 0.5rem;
+    padding-left: 0.5rem;
 }
 
-.comment_data a {
+.comment_data a{
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
-  color: #1c2135;
+  color:#000;
   font-weight: bolder;
   text-decoration: none;
 }
 
 .comment_data h6 {
-  color: #1c2135;
+  color: #000;
   font-size: 0.8rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -49,11 +49,12 @@
   margin-bottom: 0;
 }
 
-.comment_data span {
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.6rem;
-}
+.comment_data span  {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem;
 
+}
+ 
 .comment_img_container span {
   position: absolute;
   border-radius: 0.8rem;
@@ -65,3 +66,4 @@
   margin-left: 0.6rem;
   font-weight: bold;
 }
+

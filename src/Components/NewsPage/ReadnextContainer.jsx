@@ -10,12 +10,11 @@ function ReadnextContainer() {
       <section className="readnext_container">
         <div>
           <MoreNews />
-          <a href="#" id="loadMore">Load More</a>
         </div>
 
         <div>
-             <RecentPopularComment/>
-             <ImageFlipContainer/>
+             {/* <RecentPopularComment/> */}
+             {/* <ImageFlipContainer/> */}
         </div>
       </section>
     </>

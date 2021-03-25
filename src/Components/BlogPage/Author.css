@@ -28,8 +28,8 @@
 }
 
 .author_name {
-    padding: 0.5rem 0rem;
-    padding-left: 0.7rem;
+    padding: 0.5rem 2rem 0rem 0rem;
+    /* padding-left: 0.7rem; */
     font-size: 0.9rem;
     font-family: "Montserrat", sans-serif;
     color: #e6ffe6;

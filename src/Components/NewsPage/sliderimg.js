@@ -4,9 +4,12 @@ import MobileStepper from '@material-ui/core/MobileStepper';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+// import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
+// import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
+import Event from '../../Assets/Event.jpg';
+
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -48,9 +51,9 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     height: 50,
     marginBottom: '0.7rem',
-    color: '#d4ffe4',
+    color: '#fff',
     paddingLeft: theme.spacing(4),
-    backgroundColor: '#1c2135',
+    backgroundColor: '#000',
     borderRadius: '1rem',
   },
   img: {
@@ -82,9 +85,9 @@ function SwipeableTextMobileStepper() {
 
   return (
     <div className={classes.root}>
-      <Paper square elevation={0} className={classes.header}>
+      {/* <Paper square elevation={0} className={classes.header}>
         <Typography>{tutorialSteps[activeStep].label}</Typography>
-      </Paper>
+      </Paper> */}
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}
@@ -94,7 +97,7 @@ function SwipeableTextMobileStepper() {
         {tutorialSteps.map((step, index) => (
           <div key={step.label}>
             {Math.abs(activeStep - index) <= 2 ? (
-              <img className={classes.img} src={step.imgPath} alt={step.label} />
+              <img className={classes.img} src={Event} alt={step.label} />
             ) : null}
           </div>
         ))}
@@ -107,12 +110,12 @@ function SwipeableTextMobileStepper() {
         nextButton={
           <Button size="small" onClick={handleNext} disabled={activeStep === maxSteps - 1}>
             Next
-            {theme.direction === 'rtl' ? <MdKeyboardArrowLeft /> : <MdKeyboardArrowRight />}
+            {theme.direction === 'rtl' ? <KeyboardArrowLeft /> : <KeyboardArrowRight />}
           </Button>
         }
         backButton={
           <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
-            {theme.direction === 'rtl' ? <MdKeyboardArrowRight /> : <MdKeyboardArrowLeft />}
+            {theme.direction === 'rtl' ? <KeyboardArrowRight /> : <KeyboardArrowLeft />}
             Back
           </Button>
         } */}

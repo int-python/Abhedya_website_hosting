@@ -43,28 +43,28 @@ function BlogsContainer() {
                         <div>
                             <Author
                                 author_img="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                                authorName ="Mr. abc"
+                                authorName ="Allan Stanly"
                             />
                         </div>
 
                         <div>
                             <Author
                                 author_img="https://images.pexels.com/photos/1310522/pexels-photo-1310522.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                                authorName ="Mrs. abc"
+                                authorName ="Chaitanya k "
                             />
                         </div>
                         
                         <div>
                         <Author
                             author_img="https://images.pexels.com/photos/2078265/pexels-photo-2078265.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                            authorName ="Mr. abc"
+                            authorName ="Sanjib Mittal"
                         />
                         </div>
                         
                         <div>
                         <Author
                             author_img="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                            authorName ="Mr. abc"
+                            authorName ="Vinay Kabde"
                         />
                         </div>
                         
@@ -78,21 +78,21 @@ function BlogsContainer() {
                         <div>
                         <Author
                             author_img="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                            authorName ="Mr. abc"
+                            authorName ="Charisma Narayan"
                         />
                         </div>
                         
                         <div>
                         <Author
                             author_img="https://images.pexels.com/photos/2601620/pexels-photo-2601620.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                            authorName ="Mrs. abc"
+                            authorName ="Shreedhara"
                         />
                         </div>
 
                         <div>
                         <Author
                             author_img="https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                            authorName ="Mr. abc"
+                            authorName ="Allen Stanly Jones"
                         />
                         </div>
                         
@@ -104,55 +104,55 @@ function BlogsContainer() {
 
                 <BlogCard
                     imgsrc="https://images.pexels.com/photos/290275/pexels-photo-290275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                    BlogHeading = "Dummy Heading"
-                    blogPreview = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia nesciunt perspiciatis, reprehenderit delectus enim accusantium quaerat"
+                    BlogHeading = "Looking Into Feature"
+                    blogPreview = "The incredible velocity of the world’s industrial output has inspired ongoing advancements in operational technology Both digital transformation and "
                     blogAuthor="https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    authorName ="Dummy Name"
-                    publishDate = "11/3/2021"
+                    authorName ="Lalit kumar"
+                    publishDate = "10/2/2021"
                 />
 
                  <BlogCard
                     imgsrc="https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                    BlogHeading = "Dummy Heading"
-                    blogPreview = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia nesciunt perspiciatis, reprehenderit delectus enim accusantium quaerat"
+                    BlogHeading = "Public Cloud benifits"
+                    blogPreview = "The total cloud computing market worldwide is expected to reach $623.3 billion by 2023. Much of this growth will go toward the public cloud ."
                     blogAuthor="https://images.pexels.com/photos/2078265/pexels-photo-2078265.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    authorName ="Dummy Name"
-                    publishDate = "11/3/2021"
+                    authorName ="Sanjib Mittal"
+                    publishDate = "9/2/2021"
                 />
 
                  <BlogCard
                     imgsrc="https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                    BlogHeading = "Dummy Heading"
-                    blogPreview = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia nesciunt perspiciatis, reprehenderit delectus enim accusantium quaerat"
+                    BlogHeading = "4 Key Success"
+                    blogPreview = "When B2B portals were launched, the focus was for business customers to place and track their orders easily, hence they were very transaction focused ."
                     blogAuthor="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    authorName ="Dummy Name"
-                    publishDate = "11/3/2021"
+                    authorName ="Vinay Kavde"
+                    publishDate = "14/2/2021"
                 />
 
                  <BlogCard
                     imgsrc="https://images.pexels.com/photos/530024/pexels-photo-530024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=9400"
-                    BlogHeading = "Dummy Heading"
-                    blogPreview = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia nesciunt perspiciatis, reprehenderit delectus enim accusantium quaerat"
+                    BlogHeading = "Hyper Scale Front End"
+                    blogPreview = "Hyperscalers have taught us that rolling out innovative services for enriching customer experiences is a key differentiator and demanding customers  want a cloud like experienc. irrespective of scale. CIOs "
                     blogAuthor="https://images.pexels.com/photos/1310522/pexels-photo-1310522.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    authorName ="Dummy Name"
-                    publishDate = "11/3/2021"
+                    authorName ="Mayur Shah"
+                    publishDate = "1/3/2021"
                 />
 
                  <BlogCard
                     imgsrc="https://images.pexels.com/photos/259006/pexels-photo-259006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                    BlogHeading = "Dummy Heading"
-                    blogPreview = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia nesciunt perspiciatis, reprehenderit delectus enim accusantium quaerat"
+                    BlogHeading = "Powering Intelligence"
+                    blogPreview = "The digital revolution is here, transforming every aspect of our lives—at home and in business. The rapid advancement of technology is compelling organizations to reimagine their businesses in myriad ways . "
                     blogAuthor="https://images.pexels.com/photos/2601620/pexels-photo-2601620.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    authorName ="Dummy Name"
-                    publishDate = "11/3/2021"
+                    authorName ="Shreedhara Padmanabhumi"
+                    publishDate = "1/6/2021"
                 />
 
                  <BlogCard
                     imgsrc="https://images.pexels.com/photos/1138903/pexels-photo-1138903.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    BlogHeading = "Dummy Heading"
-                    blogPreview = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia nesciunt perspiciatis, reprehenderit delectus enim accusantium quaerat"
+                    BlogHeading = "Intelligence Approach"
+                    blogPreview = "With ever-increasing demand for accurate and consistent data to power analytics, artificial intelligence (AI), and automation initiatives, organizations are quickly moving away . "
                     blogAuthor="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    authorName ="Dummy Name"
+                    authorName ="Charisma Narayan"
                     publishDate = "11/3/2021"
                 />
                 <button data-aos="flip-right" className="see_more_blogs"> More Blogs </button>

@@ -14,6 +14,11 @@
   color: #d4ffe4;
 }
 
+.we_are_happy_heading {
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
 .recent_blogs_container p {
   text-align: justify;
 }
@@ -41,6 +46,10 @@
   margin-left: 3rem;
 }
 
+.blog_slider {
+  float: right;
+}
+
 @media only screen and (max-width: 760px) {
   .latest_blogs_container {
     display: grid;
@@ -60,6 +69,8 @@
   .slider_container {
     margin: 0.5rem;
   }
+ 
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -70,7 +81,7 @@
   }
 
   .wellcome_note {
-    padding-left: 4rem;
+    padding-left: 3.5rem;
     padding-top: 1rem;
   }
 
@@ -81,6 +92,15 @@
   .latest_blogs_card_section {
     float: unset;
   }
+
+  .event_card_holder {
+    padding-right: 3.5rem;
+  }
+
+  .we_are_happy_heading {
+    padding-bottom: 1.5rem;
+  }
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -105,4 +125,9 @@
   .blog_slider {
     margin-left: 0rem;
   }
+
+  .event_card_holder {
+    padding-right: 0rem;
+  }
+
 }
