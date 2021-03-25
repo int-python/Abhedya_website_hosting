@@ -39,7 +39,7 @@ function AboutMe() {
                 }}
                 />
             <p className="AboutMe__tagLine">
-                Better Services <br />And Tools <br />That Boost Up <br />Your Business.
+                Imagination is Important<br/> At Abhedya <br/>We make your Imagination <br/>Possible
             </p>
             <div className="AboutMe__section">
                 <p className="AboutMe__sectionTitle">About <br />Us.</p>
