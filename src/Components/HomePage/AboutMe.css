@@ -1,8 +1,9 @@
 .AboutMe__partical {
   background-color: #1c2135;
+  height: auto;
 }
 .AboutMe__tagLine {
-  width: 300px;
+  width: auto;
   color: #d4ffe4;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -65,5 +66,9 @@
   .AboutMe__sectionDetail {
     line-height: 16px;
     padding: 10px;
+  }
+
+  .AboutMe__tagLine {
+    margin-top: -15rem;
   }
 }

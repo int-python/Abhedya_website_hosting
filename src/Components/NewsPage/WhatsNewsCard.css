@@ -1,0 +1,76 @@
+.what_news_card_container {
+  display: grid;
+  grid-template-columns: 45% 50%;
+  grid-gap: 5%;
+  padding: 0rem 1.5rem;
+}
+
+.what_news_button {
+  width: 5rem;
+  height: 25px;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #da1793;
+  color: white;
+  font-weight: 800;
+  border-radius: 10px;
+  border: none;
+}
+
+.what_news_heading {
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  font-weight: bold;
+  color: #1c2135;
+  padding: 0.5rem 0rem;
+  font-size: 1rem;
+}
+
+.what_news_date,
+.what_news_preview {
+  color: #1c2135;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.what_news_img_container figure {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.what_news_image {
+  width: 135%;
+  height: 10rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+}
+
+.what_news_image:hover {
+  padding-right: 1.8rem;
+  transition: 0.2s;
+}
+
+@media only screen and (min-width: 768px) {
+  .what_news_card_container {
+    padding-right: 2rem;
+  }
+
+  .what_news_image {
+    height: 8rem;
+  }
+
+  .what_news_heading {
+    padding: 0rem 0rem;
+    padding-top: 0.3rem;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .what_news_image {
+    height: 7.9rem;
+  }
+}

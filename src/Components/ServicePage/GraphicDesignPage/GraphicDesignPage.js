@@ -69,13 +69,12 @@ export default function GraphicDesignPage() {
             <Grid item xs={12} sm={6} style={{ color: "#d4ffe4" }}>
               <div className="container_graphicstext">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged
+                  Graphic design is a craft where professionals create visual
+                  content to communicate messages. At Abhedya, by applying
+                  visual hierarchy and page layout techniques, designers use
+                  typography and pictures to meet users’ specific needs and
+                  focus on the logic of displaying elements in interactive
+                  designs, to optimize the user experience.
                 </p>
 
                 <p className="howdoeswe">
@@ -88,7 +87,7 @@ export default function GraphicDesignPage() {
           </Grid>
         </Paper>
         <Flowchart />
-        <Slider />
+        {/* <Slider /> */}
         <div className="showparticles">
           <Particles
             height="25vw"

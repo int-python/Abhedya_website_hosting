@@ -2,6 +2,7 @@ import React from 'react'
 import './CeoSection.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import CeoImage from '../../Assets/CeoImage.jpg'
 
 
 function CeoSection() {
@@ -13,23 +14,25 @@ function CeoSection() {
             <div className="CeoSection__left">
                 <div data-aos="fade-up">
                     <p className="CeoSection__leftTitle">
-                        CEO
+                        YASH KUMAR GUPTA (CEO)
                     </p>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="100">
                     <p className="CeoSection__leftText">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        Responsibility has always been a strong, guiding value at Power Corporation. Naturally, we take very seriously And our responsibility is to Provide Excellence in Everything Every Service We Provide. 
+                        We are focused on creating Innovative and Positive designs
                     </p>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="150">
-                    <p className="CeoSection__leftCompanyName">ABHEDYA PVT. LTD.</p>
+                    <p className="CeoSection__leftCompanyName">ABHEDYA FUTURISTIC SOLUTIONS PRIVATE LIMITED</p>
                 </div>
             </div>
             <div className="CeoSection__right">
                 <img 
                 className="CeoSection__rightImage"
-                src="https://blog.abhedya.in/media/blog/WhatsApp_Image_2020-11-12_at_2.13.58_PM.jpeg" 
-                alt="" />
+                src={CeoImage} 
+                alt="" 
+                />
             </div>
         </div>
     )

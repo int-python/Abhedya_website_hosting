@@ -69,13 +69,13 @@ export default function ML_AIServicePage() {
             <Grid item xs={12} sm={6} style={{ color: "#d4ffe4" }}>
               <div className="container_graphicstext">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged
+                  Abhedya is the leading end-to-end enterprise AI platform that
+                  automates and accelerates every step of your path from data to
+                  value. Artificial Intelligence is the broader concept of
+                  machines being able to carry out tasks in a smart way. Machine
+                  Learning is a current application of AI based on the idea that
+                  we should really just be able to give machines access to data
+                  and let them learn for themselves.
                 </p>
 
                 <p className="howdoeswe">
@@ -88,7 +88,7 @@ export default function ML_AIServicePage() {
           </Grid>
         </Paper>
         <Flowchart />
-        <Slider />
+        {/* <Slider /> */}
         <div className="showparticles">
           <Particles
             height="25vw"

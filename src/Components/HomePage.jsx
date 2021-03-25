@@ -13,8 +13,8 @@ function HomePage() {
             <AboutMe />
             <Services />
             <CeoSection />
-            <TeamSection />
-            <Testimonials />
+            {/* <TeamSection /> */}
+            {/* <Testimonials /> */}
             <NewsSection />
             <ContactUsSection />
         </div>

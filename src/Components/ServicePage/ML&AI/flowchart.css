@@ -14,7 +14,7 @@
   width: 20rem;
   /* margin-left: 10rem; */
   padding: 0.8rem;
-  text-align: justify;
+  text-align: inherit;
   margin-top: 2rem;
   margin-right: 2rem;
 }
@@ -57,7 +57,7 @@
   height: 12rem;
   width: 20rem;
   padding: 0.8rem;
-  text-align: justify;
+  text-align: inherit;
 }
 
 .message_box_endtwo {
@@ -74,7 +74,7 @@
 .msgbox_one {
   text-align: right;
   font-family: "Montserrat", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   text-decoration: none;
   font-weight: 500;
   line-height: 3.5rem;
@@ -85,7 +85,7 @@
 .msgbox_two {
   margin-top: 16rem;
   font-family: "Montserrat", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   text-decoration: none;
   font-weight: 500;
   line-height: 3.5rem;

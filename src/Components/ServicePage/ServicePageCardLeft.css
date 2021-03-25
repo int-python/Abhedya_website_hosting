@@ -52,7 +52,7 @@
     align-items: center;
   }
   .ServicePageCardLeft__leftImage {
-    width: 350px;
+    width: 100%;
   }
   .ServicePageCardLeft__right {
     padding-left: 0px;

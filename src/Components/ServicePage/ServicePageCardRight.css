@@ -50,7 +50,7 @@
     align-items: center;
   }
   .ServicePageCardRight__rightImage {
-    width: 350px;
+    width: 100%;
   }
   .ServicePageCardRight__left {
     padding-left: 0px;

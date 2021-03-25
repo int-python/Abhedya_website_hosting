@@ -69,13 +69,15 @@ export default function CyberSecurityPage() {
             <Grid item xs={12} sm={6} style={{ color: "#d4ffe4" }}>
               <div className="container_graphicstext">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged
+                  We ensure that your Web/Mobile/Desktop application is free
+                  from security bugs that could potentially damage your business
+                  and put your data at risk. Our team of skilled security
+                  researchers will analyze your applications with a fine toothed
+                  comb to find potential security threats and report them to you
+                  along with recommended fixes. We scan for OWASP Top 10
+                  vulnerabilities along with a host of other security threats.
+                  Our testing approach is hybrid – manual and automated, so you
+                  can rest assured that there won’t be any false positives.
                 </p>
 
                 <p className="howdoeswe">
@@ -88,7 +90,7 @@ export default function CyberSecurityPage() {
           </Grid>
         </Paper>
         <Flowchart />
-        <Slider />
+        {/* <Slider /> */}
         <div className="showparticles">
           <Particles
             height="25vw"

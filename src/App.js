@@ -16,6 +16,7 @@ import ML_AIServicePage from './Components/ServicePage/ML&AI/ML_AIServicePage';
 import CyberSecurityPage from './Components/ServicePage/CyberSecurity/CyberSecurityPage';
 import WebDevelopmentPage from './Components/ServicePage/WebDevelopment/WebDevelopmentPage';
 import AppDevelopPage from './Components/ServicePage/AppDevelopment/AppDevelopPage';
+import Trainings_WorkshopsPage from './Components/ServicePage/Trainings_Workshops/Trainings_WorkshopsPage';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
               <Route exact path="/ServicePage/CyberSecurityPage" component={CyberSecurityPage} />
               <Route exact path="/ServicePage/WebDevelopmentPage" component={WebDevelopmentPage} />
               <Route exact path="/ServicePage/AppDevelopPage" component={AppDevelopPage} />
-              {/* <Route exact path="/ServicePage/OtherPage" component={OtherPage} /> */}
+              <Route exact path="/ServicePage/Trainings&Workshops" component={Trainings_WorkshopsPage} />
             <Route exact path="/NewsPage" component={NewsPage} />
             <Route exact path="/BlogPage" component={BlogPage} />
           </Switch>

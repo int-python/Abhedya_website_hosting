@@ -18,9 +18,10 @@
 .NewsSection__news {
   display: flex;
   flex-direction: column;
-  align-items: center;
   height: 340px;
   overflow: hidden;
+  width: 700px;
+  text-align: justify;
 }
 .NewsSection__newsListItem {
   font-family: "Montserrat", sans-serif;
@@ -41,6 +42,9 @@
     bottom: 320px;
   }
 }
+.NewsSection__newsListItem a {
+  color: #1c2135;
+}
 .NewsSection__news:hover .NewsSection__newsListItem {
   animation: none;
 }
@@ -55,6 +59,12 @@
 }
 
 @media (max-width: 420px) {
+  .NewsSection {
+    padding: 1rem;
+  }
+  .NewsSection__news {
+    width: auto;
+  }
   .NewsSection__heading {
     font-size: 25px;
     line-height: 25px;

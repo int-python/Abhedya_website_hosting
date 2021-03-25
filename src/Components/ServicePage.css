@@ -11,8 +11,13 @@
   font-weight: 600;
   font-size: 30px;
   color: #d4ffe4;
-  margin-top: -250px;
+  margin-top: -200px;
 }
+
+.ServicePage {
+  overflow: hidden;
+}
+
 .ServicePage__topDetail {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -35,4 +40,7 @@
 @media (max-width: 800px) {
 }
 @media (max-width: 420px) {
+  .ServicePage__topDetail {
+    margin: 0rem 2rem;
+  }
 }

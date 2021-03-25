@@ -1,12 +1,15 @@
-import Whatnew from './Whatnew';
-import Readnew from './Readnew';
-
+import NewsSlider from './NewsSlider';
+import ReadnextContainer from './ReadnextContainer';
+import WhatNewContainer from './WhatNewContainer';
 
 const News = () => {
 return(
      <>
-     <Whatnew/>
-     <Readnew/>
+     <section style={{background: "#d4ffe4"}}>
+     <WhatNewContainer/>
+     <NewsSlider/>
+     <ReadnextContainer/>
+     </section>
      </>
 );
 

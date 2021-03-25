@@ -51,16 +51,16 @@ function ServicePage() {
                     }}
                 />
                 <div className="ServicePage__topHead">
-                    <p className="ServicePage__topHeading">ServicePage</p>    
-                    <p className="ServicePage__topDetail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <p className="ServicePage__topHeading">Abhedya's Services</p>    
+                    {/* <p className="ServicePage__topDetail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> */}
                 </div>
             </div>
             <div className="ServicePage__services">
                 <p className="ServicePage__servicesHeading">Services We Offer</p>
                 <div data-aos="fade-left">
                     <ServicePageCardLeft 
-                    ServiceName="Grapic"
-                    ServiceDetail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    ServiceName="Grapic Design"
+                    ServiceDetail="Graphic design is a craft where professionals create visual content to communicate messages. At Abhedya, by applying visual hierarchy and....."
                     ServiceImage="https://bestdevlist.com/wp-content/uploads/2019/02/Graphic-_Design-400x200.jpg"
                     ServicePageLink="/ServicePage/GraphicDesignPage"
                     />
@@ -68,7 +68,7 @@ function ServicePage() {
                 <div data-aos="fade-right">
                     <ServicePageCardRight 
                     ServiceName="ML & AI"
-                    ServiceDetail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    ServiceDetail="Abhedya is the leading end-to-end enterprise AI platform that automates and accelerates every step of your path from data to value Artifi....."
                     ServiceImage="https://softei.com/wp-content/uploads/2020/02/Arm_10-02-2020-400x200-c-default.jpg"
                     ServicePageLink="/ServicePage/ML&AIPage"
                     />
@@ -76,7 +76,7 @@ function ServicePage() {
                 <div data-aos="fade-left">
                     <ServicePageCardLeft 
                     ServiceName="Cybersecurity"
-                    ServiceDetail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    ServiceDetail="We ensure that your application is free from security bugs that could potentially damage your business and put your data at risk....."
                     ServiceImage="https://i.pinimg.com/474x/53/7c/e4/537ce444ca00676f55cdcbe9671d6688.jpg"
                     ServicePageLink="/ServicePage/CyberSecurityPage"
                     />
@@ -84,7 +84,7 @@ function ServicePage() {
                 <div data-aos="fade-right">
                     <ServicePageCardRight 
                     ServiceName="Web Development"
-                    ServiceDetail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    ServiceDetail="Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, wo....."
                     ServiceImage="https://industryarmymarketing.com/wp-content/uploads/2018/08/wd1-400x200.jpg"
                     ServicePageLink="/ServicePage/WebDevelopmentPage"
                     />
@@ -92,17 +92,17 @@ function ServicePage() {
                 <div data-aos="fade-left">
                     <ServicePageCardLeft 
                     ServiceName="App Development"
-                    ServiceDetail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    ServiceDetail="App development is the process of creating apps that run on any mobile platform: Android and iOS The app design is created according to the ....."
                     ServiceImage="https://assets.entrepreneur.com/content/3x2/2000/20190612193425-GettyImages-1066987316-crop.jpeg?auto=webp&quality=95&crop=2:1&width=400"
                     ServicePageLink="/ServicePage/AppDevelopPage"
                     />
                 </div>
                 <div data-aos="fade-right">
                     <ServicePageCardRight 
-                    ServiceName="Others"
-                    ServiceDetail="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    ServiceName="Trainings&Workshops"
+                    ServiceDetail="We have started specialized training on below mentioned courses which would spread awareness and need of Developement and cyber security. Ap....."
                     ServiceImage="https://assets.entrepreneur.com/content/3x2/2000/20180829214301-GettyImages-993560700.jpeg?auto=webp&quality=95&crop=2:1&width=400"
-                    ServicePageLink="/ServicePage/OtherPage"
+                    ServicePageLink="/ServicePage/Trainings&Workshops"
                     />
                 </div>
             </div>

@@ -69,13 +69,10 @@ export default function WebDevelopmentPage() {
             <Grid item xs={12} sm={6} style={{ color: "#d4ffe4" }}>
               <div className="container_graphicstext">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged
+                  Web development is the building and maintenance of websites;
+                  it's the work that happens behind the scenes to make a website
+                  look great, work fast and perform well with a seamless user
+                  experience.
                 </p>
 
                 <p className="howdoeswe">
@@ -88,7 +85,7 @@ export default function WebDevelopmentPage() {
           </Grid>
         </Paper>
         <Flowchart />
-        <Slider />
+        {/* <Slider /> */}
         <div className="showparticles">
           <Particles
             height="25vw"

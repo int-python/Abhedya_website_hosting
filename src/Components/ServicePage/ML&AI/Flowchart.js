@@ -35,10 +35,9 @@ export default function Flowchart() {
                 <p className="msgbox_one">Briefing</p>
                 <div className="Mesage_box">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ratione neque libero officiis ab quos delectus pariatur
-                    eaque animi illo nesciunt, excepturi iste sunt dolores
-                    molestiae accusamus alias in. Nemo, assumenda.
+                    Abhedya's intelligent support, sales, and customer
+                    engagement solutions allow leading enterprises to set up
+                    world class customer support experiences rapidly at scales.
                   </p>
                   <span className="message_box_end"></span>
                 </div>
@@ -50,10 +49,11 @@ export default function Flowchart() {
                 <p className="msgbox_two ">Designing</p>
                 <div className="Mesage_box_two">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ratione neque libero officiis ab quos delectus pariatur
-                    eaque animi illo nesciunt, excepturi iste sunt dolores
-                    molestiae accusamus alias in. Nemo, assumenda.
+                    AI designers help to ensure that we are developing data
+                    collection systems that are safe, fair, ethical, and apply
+                    to real user problems. These designers create frameworks and
+                    guidelines where needed to ensure the safe and secure use of
+                    AI.
                   </p>
                   <span className="message_box_endtwo"></span>
                 </div>
@@ -64,14 +64,17 @@ export default function Flowchart() {
             <div data-aos="zoom-out-right">
               <div>
                 <p className="msgbox_one long_txt">
-                  Final Ideas <br /> & Art Work
+                  Production
+                  <br />
+                  Printing
                 </p>
                 <div className="Mesage_box">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ratione neque libero officiis ab quos delectus pariatur
-                    eaque animi illo nesciunt, excepturi iste sunt dolores
-                    molestiae accusamus alias in. Nemo, assumenda.
+                    AI systems help forecast when or if functional equipment
+                    will fail so its maintenance and repair can be scheduled
+                    before the failure occurs. Thanks to AI-powered predictive
+                    maintenance, manufacturers can improve efficiency while
+                    reducing the cost of machine failure.
                   </p>
                   <span className="message_box_end"></span>
                 </div>
@@ -80,16 +83,13 @@ export default function Flowchart() {
             <div className="flowchart_pole pole_end"></div>
             <div data-aos="zoom-out-left">
               <div>
-                <p className="msgbox_two long_txt">
-                  Production <br />
-                  Printing
-                </p>
+                <p className="msgbox_two long_txt">Final ideas.</p>
                 <div className="Mesage_box_two">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ratione neque libero officiis ab quos delectus pariatur
-                    eaque animi illo nesciunt, excepturi iste sunt dolores
-                    molestiae accusamus alias in. Nemo, assumenda.
+                    We can make Robots as smart as a human by using a cloud
+                    brain.This will be achieved by cloud-connected robots,where
+                    diverse models of robots share a brain hosted on a cloud
+                    platform.
                   </p>
                   <span className="message_box_endtwo"></span>
                 </div>

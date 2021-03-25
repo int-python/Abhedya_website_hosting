@@ -1,0 +1,182 @@
+.flowchart {
+  /* display: grid; 
+    grid-template-columns: 47% 5% 47%;
+    margin: 4rem; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.Mesage_box {
+  position: relative;
+  background-color: #1c2135;
+  color: #d4ffe4;
+  height: 16rem;
+  width: 20rem;
+  /* margin-left: 10rem; */
+  padding: 0.8rem;
+  text-align: inherit;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+.message_box_end {
+  position: absolute;
+  top: -0.1rem;
+  right: -1.8rem;
+  background-color: #1c2135;
+  /* border: 1px solid red; */
+  height: 1.5rem;
+  width: 4rem;
+  border-radius: 55%;
+}
+
+.flowchart_pole {
+  border-right: 4px solid #1c2135;
+  width: 1rem;
+  margin-right: 2rem;
+  border-left: 4px solid #1c2135;
+}
+/* ------------------- */
+.pole2 {
+  border: 4px solid #1c2135;
+  width: 1rem;
+  margin-right: 2rem;
+  /* border-left: 4px solid #0e0e0e; */
+}
+.flowechart_two_container {
+  display: flex;
+  padding: 2rem;
+  background: linear-gradient(#e6dddd, #b3ffe0);
+}
+.show_hide {
+  display: none;
+}
+.Mesage_box_two {
+  position: relative;
+  background-color: #1c2135;
+  color: #d4ffe4;
+  height: 16rem;
+  width: 20rem;
+  padding: 0.8rem;
+  text-align: inherit;
+}
+
+.message_box_endtwo {
+  position: absolute;
+  top: -0.1rem;
+  left: -1.8rem;
+  background-color: #1c2135;
+
+  /* border: 1px solid red; */
+  height: 1.5rem;
+  width: 4rem;
+  border-radius: 55%;
+}
+.msgbox_one {
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 3.5rem;
+  text-transform: capitalize;
+  margin: 0rem 3rem 0rem 0rem;
+}
+
+.msgbox_two {
+  margin-top: 16rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 3.5rem;
+  text-transform: capitalize;
+}
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  text-decoration: none;
+  font-weight: 400;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+.heading h3 {
+  font-size: 40px;
+}
+.flowcontainer {
+  background: linear-gradient(#e6dddd, #b3ffe0);
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.long_txt {
+  line-height: 3rem;
+}
+.pole_end {
+  border-bottom: 4px solid #1c2135;
+}
+.start_pole {
+  border-top: 4px solid #1c2135;
+}
+
+@media only screen and (max-width: 760px) {
+  .show_hideone {
+    display: none;
+  }
+  .show_hide {
+    display: block;
+  }
+  .Mesage_box_two {
+    width: 100%;
+    height: auto;
+    margin-right: 0rem;
+  }
+
+  .msgbox_two {
+    margin-top: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 0.5rem;
+  }
+  .heading {
+    margin-bottom: 1.5rem;
+  }
+  .long_txt {
+    line-height: unset;
+  }
+  .heading h3 {
+    font-size: 30px;
+  }
+
+  /* .Mesage_box{
+       width: 87%;
+       height: auto;
+   }
+
+ 
+   .msgbox_one {
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0rem ;
+}
+.msgbox_two{
+    margin-top: 16rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 0.5rem;
+    
+}
+
+.flowcontainer{
+    padding-top: 1.7rem;
+}
+.heading{
+    margin-bottom: 1.5rem;
+} */
+}
