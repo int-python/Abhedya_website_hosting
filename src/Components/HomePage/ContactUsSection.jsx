@@ -12,7 +12,7 @@ function ContactUsSection() {
                 <a href="https://www.facebook.com/abhedyatech" className="ContactUsSection__leftFbIcon"><FaFacebookF /></a>
                 <a href="" className="ContactUsSection__leftIgIcon"><FaInstagram /></a>
                 <a href="https://twitter.com/abhedyatech" className="ContactUsSection__leftTwIcon"><FaTwitter /></a>
-                <a href="" className="ContactUsSection__leftLiIcon"><FaLinkedinIn /></a>
+                <a href="https://www.linkedin.com/company/abhedya-futuristic-solutions/?originalSubdomain=in" className="ContactUsSection__leftLiIcon"><FaLinkedinIn /></a>
             </div>
             <div className="ContactUsSection__right">
                 <input type="text" className="ContactUsSection__rightName" placeholder="Name" /><br/>
