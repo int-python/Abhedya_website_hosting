@@ -9,6 +9,8 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 // import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
+import EventCrop from '../../Assets/EventCrop.jpg';
+
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -58,6 +60,7 @@ const useStyles = makeStyles((theme) => ({
   },
   img: {
     height: 255,
+    width: "auto",
     display: 'block',
     // maxWidth: 500,
     overflow: 'hidden',
@@ -101,7 +104,7 @@ function SwipeableTextMobileStepper() {
         {tutorialSteps.map((step, index) => (
           <div key={step.label}>
             {Math.abs(activeStep - index) <= 2 ? (
-              <img className={classes.img} src={step.imgPath} alt={step.label} />
+              <img className={classes.img} src={EventCrop} alt={step.label} />
             ) : null}
           </div>
         ))}

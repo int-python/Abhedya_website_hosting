@@ -28,8 +28,37 @@ export default function Home() {
       <Paper className={classes.paper}>
         <Grid container>
           <Grid item xs={12}>
+            {/* <Particles
+              height="350px"
+              style={{ backgroundColor: "#1c2135" }}
+              params={{
+                "particles": {
+                    "number": {
+                        "value": 80
+                    },
+                    "size": {
+                        "value": 3
+                    }
+                },
+                "interactivity": {
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        }
+                        
+                    }
+                }
+            }}
+              
+              
+            /> */}
             <div className="Policy__top">
-            <Particles 
+                <Particles 
                     className="Policy__partical"
                     height="350px" 
                     params={{
@@ -58,8 +87,9 @@ export default function Home() {
                 />
                 <div className="Policy__topHead">
                     <p className="Policy__topHeading">Abhedya's Blogs</p>    
+                    {/* <p className="PolicyPage__topDetail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> */}
                 </div>
-            </div> 
+            </div>
           </Grid>       
         </Grid>
       </Paper>
