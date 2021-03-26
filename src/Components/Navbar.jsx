@@ -23,15 +23,15 @@ function Navbar() {
                       <li class="nav-item">
                         <a class="nav-link" href="/ServicePage">Services</a>
                       </li>
-                      <li class="nav-item">
+                      {/* <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
-                      </li>
+                      </li> */}
                       <li class="nav-item">
                         <a class="nav-link" href="/NewsPage">News</a>
                       </li>
-                      <li class="nav-item">
+                      {/* <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
-                      </li>
+                      </li> */}
                       <li class="nav-item">
                         <a class="nav-link" href="/BlogPage">Blogs</a>
                       </li>

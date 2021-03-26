@@ -28,35 +28,38 @@ export default function Home() {
       <Paper className={classes.paper}>
         <Grid container>
           <Grid item xs={12}>
-            <Particles
-              height="350px"
-              style={{ backgroundColor: "#1c2135" }}
-              params={{
-                "particles": {
-                    "number": {
-                        "value": 80
-                    },
-                    "size": {
-                        "value": 3
-                    }
-                },
-                "interactivity": {
-                    "events": {
-                        "onhover": {
-                            "enable": true,
-                            "mode": "repulse"
+            <div className="Policy__top">
+            <Particles 
+                    className="Policy__partical"
+                    height="350px" 
+                    params={{
+                        "particles": {
+                            "number": {
+                                "value": 80
+                            },
+                            "size": {
+                                "value": 4
+                            }
                         },
-                        "onclick": {
-                            "enable": true,
-                            "mode": "push"
+                        "interactivity": {
+                            "events": {
+                                "onhover": {
+                                    "enable": true,
+                                    "mode": "repulse"
+                                },
+                                "onclick": {
+                                    "enable": true,
+                                    "mode": "push"
+                                }
+
+                            }
                         }
-                        
-                    }
-                }
-            }}
-              
-              
-            />
+                    }}
+                />
+                <div className="Policy__topHead">
+                    <p className="Policy__topHeading">Abhedya's Blogs</p>    
+                </div>
+            </div> 
           </Grid>       
         </Grid>
       </Paper>

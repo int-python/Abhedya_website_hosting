@@ -13,16 +13,16 @@ function Footer() {
                     <Link to="/" className="Footer__containt1Logo">
                         <a><SiConfluence /> Abhedya</a>
                     </Link>
-                    <a href="#" className="Footer__containt1Item">Terms Of Services</a>
-                    <a href="#" className="Footer__containt1Item">Policy Privacy</a>
+                    <a href="/ServicePage" className="Footer__containt1Item">Terms Of Services</a>
+                    <a href="/Policy_Privacy" className="Footer__containt1Item">Privacy Policy</a>
                     {/* <a href="#" className="Footer__containt1Item">Deal Registration</a> */}
                 </div>
                 <div className="Footer__containt2">
                     <a href="/ServicePage" className="Footer__containt2Title">Services</a>
                     {/* <a href="#" className="Footer__containt2Item">Safe</a> */}
                     <a href="#" className="Footer__containt2Item">People</a>
-                    <a href="#" className="Footer__containt2Item">Policy</a>
-                    <a href="#" className="Footer__containt2Item">Technology</a>
+                    <a href="/Policy_Privacy" className="Footer__containt2Item">Policy</a>
+                    <a href="/ServicePage" className="Footer__containt2Item">Technology</a>
                     {/* <a href="#" className="Footer__containt2Item">CSP</a> */}
                     {/* <a href="#" className="Footer__containt2Item">Third Party</a> */}
                 </div>
@@ -44,9 +44,9 @@ function Footer() {
                     {/* <a href="#" className="Footer__containt4Item">Posters</a> */}
                     <a href="/BlogPage" className="Footer__containt4Item">Blog</a>
                 </div>
-                <div className="Footer__containt5">
+                {/* <div className="Footer__containt5">
                     <a href="#" className="Footer__containt5Title">Contact Us</a>
-                </div>
+                </div> */}
             </div>
         </div>
     )

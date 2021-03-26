@@ -62,8 +62,9 @@ export default function Trainings_Workshops() {
             <Grid item xs={12} sm={6}>
               <div className="container_graphics">
                 <h1 className="graphics_design_heading">
-                  Training <br />
-                  WrokshopPage.
+                  Training 
+                  <br />&<br />
+                  Wrokshop
                 </h1>
               </div>
             </Grid>

@@ -62,7 +62,7 @@ export default function ML_AIServicePage() {
             <Grid item xs={12} sm={6}>
               <div className="container_graphics">
                 <h1 className="graphics_design_heading">
-                  Machine learning <br /> and ai.
+                  Machine Learning <br /> &<br /> Artificial Intelligence
                 </h1>
               </div>
             </Grid>

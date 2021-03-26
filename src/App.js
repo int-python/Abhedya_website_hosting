@@ -17,6 +17,7 @@ import CyberSecurityPage from './Components/ServicePage/CyberSecurity/CyberSecur
 import WebDevelopmentPage from './Components/ServicePage/WebDevelopment/WebDevelopmentPage';
 import AppDevelopPage from './Components/ServicePage/AppDevelopment/AppDevelopPage';
 import Trainings_WorkshopsPage from './Components/ServicePage/Trainings_Workshops/Trainings_WorkshopsPage';
+import Privacy_Policy from './Components/Privacy_Policy';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
               <Route exact path="/ServicePage/Trainings&Workshops" component={Trainings_WorkshopsPage} />
             <Route exact path="/NewsPage" component={NewsPage} />
             <Route exact path="/BlogPage" component={BlogPage} />
+            <Route exact path="/Privacy_Policy" component={Privacy_Policy} />
           </Switch>
         </div>  
         <Footer />

@@ -36,7 +36,7 @@ function LatestBlog() {
                 <div>
                     <div>
                         <div className="slider_container">
-                            <h1 className="latest_blog_heading"> Latest Bolg! </h1>
+                            <h1 className="latest_blog_heading"> Latest Blog! </h1>
                             <SwipeableTextMobileStepper className="blog_slider"/>
                         </div>
 
