@@ -14,14 +14,14 @@ function Footer() {
                         <a><SiConfluence /> Abhedya</a>
                     </Link>
                     <a href="/ServicePage" className="Footer__containt1Item">Terms Of Services</a>
-                    <a href="/Policy_Privacy" className="Footer__containt1Item">Privacy Policy</a>
+                    <a href="/Privacy_Policy" className="Footer__containt1Item">Privacy Policy</a>
                     {/* <a href="#" className="Footer__containt1Item">Deal Registration</a> */}
                 </div>
                 <div className="Footer__containt2">
                     <a href="/ServicePage" className="Footer__containt2Title">Services</a>
                     {/* <a href="#" className="Footer__containt2Item">Safe</a> */}
                     <a href="#" className="Footer__containt2Item">People</a>
-                    <a href="/Policy_Privacy" className="Footer__containt2Item">Policy</a>
+                    <a href="/Privacy_Policy" className="Footer__containt2Item">Policy</a>
                     <a href="/ServicePage" className="Footer__containt2Item">Technology</a>
                     {/* <a href="#" className="Footer__containt2Item">CSP</a> */}
                     {/* <a href="#" className="Footer__containt2Item">Third Party</a> */}
