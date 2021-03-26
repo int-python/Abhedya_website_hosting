@@ -6,12 +6,12 @@ import Subscribe from "./Subscribe";
 
 function Blog() {
    return(
-    <>
+    <div style={{overflow:"hidden"}}>
         <Particles/>
         <LatestBlog/>
         <BlogsContainer/>
         <Subscribe/>
-    </>
+    </div>
    )
 
 }
