@@ -17,7 +17,7 @@ function NewsSlider() {
               <button className="slider_button"> TECH </button>
               <br />
               <strong className="slider_caption">
-              Realme 8-Series 5G Variants to Launch in India ‘Soon’, Reveals CEO Madhav Sheth
+              Realme 8-Series 5G Variants to Launch in India ‘Soon’
               </strong>
             </figcaption>
           </div>
@@ -53,7 +53,7 @@ function NewsSlider() {
               <button className="slider_button"> TECH </button>
               <br />
               <strong className="slider_caption">
-                   Russia Launches 36 UK Telecom and Internet Satellites on Board Soyuz Rocket
+                   Russia Launches 36 UK Tel. and Internet Satellites
               </strong>
             </figcaption>
           </div>

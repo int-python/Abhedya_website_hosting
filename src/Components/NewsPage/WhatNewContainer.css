@@ -1,179 +1,184 @@
 .whats_new_heading {
-    color: #000;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    padding: 1.5rem 0rem 0.5rem 1.5rem;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 1.5rem 0rem 0.5rem 1.5rem;
 }
 
 .event_card_division {
- padding: 0rem 1.5rem 1.5rem 1.5rem;    
+  padding: 0rem 1.5rem 1.5rem 1.5rem;
 }
 
 .what_new_img_container {
-    padding: 0rem 1.5rem;
+  padding: 0rem 1.5rem;
 }
 
-.social_icon_container{
-     display: grid;
-     grid-template-columns: 50% 50%;
-     padding: 0rem 1.3rem;
-    
+.social_icon_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0rem 1.3rem;
 }
 
 .social_icon_data {
-    color: #fff;
+  color: #fff;
 }
 
 .social_icon_container div {
-    margin: 0.3rem;
-    background-color: #000;
-    border-radius: 0.5rem;
+  margin: 0.3rem;
+  background-color: #000;
+  border-radius: 0.5rem;
 }
 .social_icon i {
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding: 1.3rem 0.1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1.3rem 0.1rem;
+}
+.social_icon_data h6 {
+  display: none;
 }
 
 .social_icon_container a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .social_icon {
-    display: grid;
-    grid-template-columns: 25% 75%;
+  display: grid;
+  grid-template-columns: 25% 75%;
 }
 
-.facebook_icon, .twitter_icon {
-    color: #0000ff;
+.facebook_icon,
+.twitter_icon {
+  color: #0000ff;
 }
 
-.instagram_icon, .youtube_icon {
-    color:#ff0000;
+.instagram_icon,
+.youtube_icon {
+  color: #ff0000;
 }
 
 .whats_new_heading_trending {
-    color: #000;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    padding-bottom: 1rem;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  padding-bottom: 1rem;
 }
 
 .what_new_container_img_single_card {
-    padding: 1.5rem 1.5rem 0rem 1.5rem;
+  padding: 1.5rem 1.5rem 0rem 1.5rem;
 }
 
 #show_hide {
-    display: none;
+  display: none;
 }
 
 .follow_us_heading {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    color: #000;
-    font-size: 2rem;
-    padding-left: 3rem;
-    padding-top: 1rem;
-    display: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #000;
+  font-size: 2rem;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
-    .what_new_img_size {
-        height: 35rem;
-    }
+  .what_new_img_size {
+    height: 35rem;
+  }
 
-    .event_card_division {
-        padding: 0rem 0rem 1.5rem 1.5rem;    
-       }
+  .event_card_division {
+    padding: 0rem 0rem 1.5rem 1.5rem;
+  }
 
-    .what_new_container {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        padding-left: 0.5rem;
-    }
+  .what_new_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 0.5rem;
+  }
 
-    .social_icon_container {
-        height: 10rem;
-    }
+  .social_icon_container {
+    height: 10rem;
+  }
 
-    .social_icon_data {
-        font-size: 0.6rem;
-        padding-top: 0.8rem;
-    }
+  .social_icon_data {
+    font-size: 0.6rem;
+    padding-top: 0.8rem;
+  }
 
-    .social_icon_data strong {
-        font-size: 0.6rem;
-    }
-    
-    .social_icon_data h6 {
-        font-size: 0.6rem;
-    }
+  .social_icon_data strong {
+    font-size: 0.6rem;
+  }
 
-    .social_icon i {
-        font-size: 1rem;
-    }
+  .social_icon_data h6 {
+    font-size: 0.6rem;
+    display: none;
+  }
 
-    .whats_new_heading {
-        text-align: left;
-        padding: 2rem 2rem 1rem 2rem;
-    }
+  .social_icon i {
+    font-size: 1rem;
+  }
 
-    .what_new_container_marge {
-       display: grid;
-       grid-template-columns: 40% 60%;
-       padding-left: 0.5rem;
-    }
-    .what_new_container_img_single_card {
-        padding: 0rem 2.5rem 0.5rem 0rem;
-    }
+  .whats_new_heading {
+    text-align: left;
+    padding: 2rem 2rem 1rem 2rem;
+  }
 
-    .follow_us_heading {
-        display: block;
-    }
+  .what_new_container_marge {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-left: 0.5rem;
+  }
+  .what_new_container_img_single_card {
+    padding: 0rem 2.5rem 0.5rem 0rem;
+  }
 
+  .follow_us_heading {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1030px) {
-    .whats_new_heading {
-        padding: 2rem 0rem 1rem 3.5rem;
-    }
-    .what_new_container {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-    }
+  .whats_new_heading {
+    padding: 2rem 0rem 1rem 3.5rem;
+  }
+  .what_new_container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
 
-    .what_new_container {
-        padding: 0rem 1rem 0rem 2rem;
-    }
+  .what_new_container {
+    padding: 0rem 1rem 0rem 2rem;
+  }
 
-    .what_new_container_marge {
-        display: grid;
-        grid-template-columns: 100%;
-    }
+  .what_new_container_marge {
+    display: grid;
+    grid-template-columns: 100%;
+  }
 
-    .social_icon i {
-        font-size: 1.5rem;
-    }
-    .social_icon_data h6 {
-        font-size: 0.8rem;
-    }
-    .social_icon_container a {
-        font-size: 0.8rem;
-    }
-    .what_new_container_img_single_card {
-        padding: 0rem 1.5rem;
-    }
-    .whats_new_heading_trending {
-        margin: 1.6rem 0rem 0.3rem 0rem;
-    }
+  .social_icon i {
+    font-size: 1.5rem;
+  }
+  .social_icon_data h6 {
+    font-size: 0.8rem;
+    display: none;
+  }
+  .social_icon_container a {
+    font-size: 0.8rem;
+  }
+  .what_new_container_img_single_card {
+    padding: 0rem 1.5rem;
+  }
+  .whats_new_heading_trending {
+    margin: 1.6rem 0rem 0.3rem 0rem;
+  }
 
-    #show_hide {
-        display: block;
-    }
-    #show_hide2 {
-        display: none;
-    }
+  #show_hide {
+    display: block;
+  }
+  #show_hide2 {
+    display: none;
+  }
 }
