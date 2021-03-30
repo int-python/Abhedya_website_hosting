@@ -10,10 +10,10 @@ function BlogsContainer() {
 
     useEffect(() => {
         AOS.init({
-          offset: 200,
-          duration: 800,
-          easing: "ease-in-sine",
-          delay: 100,
+        //   offset: 200,
+        //   duration: 800,
+        //   easing: "ease-in-sine",
+        //   delay: 100,
         });
         AOS.refresh();
       }, []);
@@ -71,7 +71,7 @@ function BlogsContainer() {
                         <div>
                         <Author
                             author_img="https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                            authorName ="Mrs. abc"
+                            authorName ="Mrs. Shilen"
                         />
                         </div>
                         

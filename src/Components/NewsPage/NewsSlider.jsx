@@ -17,7 +17,7 @@ function NewsSlider() {
               <button className="slider_button"> TECH </button>
               <br />
               <strong className="slider_caption">
-              Realme 8-Series 5G Variants to Launch in India ‘Soon’
+              Realme 8-Series 5G Variants Launch in India ‘Soon’
               </strong>
             </figcaption>
           </div>

@@ -56,15 +56,15 @@
     flex: 0.8;
   }
   .CeoSection__leftTitle {
-    font-size: 25px;
+    font-size: 14px;
     padding-bottom: 0px;
   }
   .CeoSection__leftText {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 13px;
   }
   .CeoSection__leftCompanyName {
-    font-size: 16px;
+    font-size: 13px;
     padding-top: 0px;
   }
   .CeoSection__rightImage {

@@ -12,9 +12,9 @@ function LatestBlog() {
 
     useEffect(() => {
         AOS.init({
-          offset: 200,
-          duration: 800,
-          easing: "ease-in-sine",
+        //   offset: 200,
+        //   duration: 800,
+        //   easing: "ease-in-sine",
         //   delay: 100,
         });
         AOS.refresh();
@@ -40,7 +40,7 @@ function LatestBlog() {
                             <SwipeableTextMobileStepper className="blog_slider"/>
                         </div>
 
-                        <div className="latest_blogs_card_section">
+                        {/* <div className="latest_blogs_card_section">
                             <BlogCard
                                 imgsrc="https://images.pexels.com/photos/327540/pexels-photo-327540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                                 BlogHeading = "Steps for partnership"
@@ -58,7 +58,7 @@ function LatestBlog() {
                                 authorName ="Allen Stunly Jones"
                                 publishDate = "8/3/2021"
                             />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
