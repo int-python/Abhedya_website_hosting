@@ -1,10 +1,83 @@
-# Getting Started with Create React App
+# Welcome to Abhedya Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+App Name : Abhedya
+
+Development Team : 
+
+    Team Leader: 
+  
+       Akshay
+
+    Team Members:
+
+      Ashish 
+
+      Akash
+
+      Nayan
+
+      Ishita
+
+      Gaurav
+  
+Web URL : https://www.abhedya.in/
+
+---
+
+**About this file**  
+The purpose of this file is to provide overview, setup instructions and background information of the project. If you have joined this project as a part of the development team, please ensure this file is up to date.  
+  
+**Note : Any dependencies added / modified to this project which affect the running of the code in this git repository must be listed in this file. All developers must ensure that the instructions mentioned in this file are sufficient to enable a new developer to obtain a executable copy of the lastest code in this repository, without involvement from any other human assistance.**
+
+---
+
+**Tools and Hardware Requirements Declaration**
+
+I) Software requirements
+1) Node.js
+2) Code Editor (Recommended VsCode )
+
+II) Hardware requirements
+1) Minimum 4 GB RAM
+2) Minimum 12 GB Available Disk Space
+3) Internet Availablility
+
+---
+
+**Project Technical Specifications**
+
+* This project is a Component based project which uses React 17.0.2 .  
+* The React code is first compiled using Cli commands, See  "Getting Started with Project" for all use full Cli commands.
+* The design for reference is from Corseca Company.
+
+---
+# Getting Started with Project
+
+**Clone the repository from GitLab :**  
+
+```https://github.com/int-python/Abhedya_website_hosting.git```
+
+**Change current working directory to Project directory**
+
+```cd Abhedya_website_hosting```
+
+**Installing dependencies**  
+This project requires Node for running,
+You can install it by referring to the official cordova page : [[https://nodejs.org/en/download/](https://nodejs.org/en/download/)]
+
+Use Latest Node version.
+
+The package.json file contains the list of all dependencies used for this project.
+
+Please follow below steps for installation :
+
+Install NPM Dependencies
+
+```npm i```
 
 ## Available Scripts
 
-In the project directory, you can run:
+To start the project.
 
 ### `npm start`
 
@@ -68,3 +141,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## For Project Structure Read Documentation in /Src/Documentation
